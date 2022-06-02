@@ -12,7 +12,7 @@ const Calculator = () => {
     <div className="container" style={{ marginTop: '4rem' }}>
       <h2 style={{ marginTop: 0 }}>Let&apos;s do some math!</h2>
       <div className="calculate">
-        <div className="screen">{ next || operation || total || 0 }</div>
+        <div data-testid="display" className="display">{ next || operation || total || 0 }</div>
         <div className="buttons">
           <div className="row">
             <button type="button" onClick={clickHandler} className="gray btn-normal">AC</button>
