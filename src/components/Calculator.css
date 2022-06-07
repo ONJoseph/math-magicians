@@ -8,7 +8,7 @@
   min-width: 500px;
 }
 
-.screen {
+.display {
   background-color: #858693;
   display: flex;
   flex-direction: row-reverse;
